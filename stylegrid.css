@@ -1,0 +1,42 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    overflow-x: hidden;
+    height: 100vh;
+    display: grid;
+    background-color: bisque;
+    border-radius: 10px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto 1fr auto;
+    gap: 2px solid black;
+}
+#box1{text-align: center;
+    grid-column: 1/span 4;
+    background-color: aquamarine;
+}
+#img{
+    background-size: cover;
+    background-position: center;
+}
+#box2{
+    text-align: inherit;
+    grid-column: 1/span 1;
+    background-color: blueviolet;
+    overflow-y: scroll;
+}
+#box3{
+    grid-column: 2/span 2;
+    background-color: blue;
+}
+#box4{
+    grid-column: 4/span 2;
+    background-color: burlywood;
+}
+#box5{
+    grid-column: 1/span 4;
+    background-color: chartreuse;
+}
