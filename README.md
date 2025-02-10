@@ -9,3 +9,9 @@ This repository contains my practice projects for mastering **CSS Grid Layout**.
 - Minimalist yet effective design  
 
 ## 📂 Project Structure  
+
+
+## 💻 Installation  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/yourusername/css-grid-practice.git
